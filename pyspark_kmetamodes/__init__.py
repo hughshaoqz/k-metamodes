@@ -527,13 +527,13 @@ class IncrementalPartitionedKMetaModes:
             return self.metamodes
 
         def get_modes(self):
-	"""
-	returns all modes (not metamodes!) from all partitions
-        """
+            """
+            returns all modes (not metamodes!) from all partitions
+            """
             return self.all_modes
 
         def get_mode_indexes(self):
-	"""
-	returns a list with corresponding mode ID (which is unique) for each original record (not a metamode ID!)
-	"""
+            """
+            returns a list with corresponding mode ID (which is unique) for each original record (not a metamode ID!)
+            """
             return self.mode_indexes
